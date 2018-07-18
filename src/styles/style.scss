@@ -1,9 +1,51 @@
 @import "./palette";
 @import "./fonts";
-
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
+  margin: 0;
   background-color: $color3;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px 1fr 1fr 50px;
+}
+
+.header {
+  background-color: $color2;
+  border-bottom: 3px solid darken( $color2, 20% );
+}
+
+.welcome {
   font-family: 'Code', sans-serif;
-  font-size: 5em;
   color: $color1;
+  font-size: 10em;
+  font-weight: bold;
+  place-self: center;
+  opacity: 0;
+  animation: fadein .7s .3s forwards;
+}  
+
+.wip {
+  font-family: 'Droid Sans', sans-serif; 
+  color: $color1;
+  font-size: 2em;
+  justify-self: center;
+  align-self: start;
+  opacity: 0;
+  animation: fadein .7s 1s forwards;
+}
+.footer {
+  background-color: $color2;
+  align-self: end;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
