@@ -1,0 +1,9 @@
+@import "./palette";
+@import "./fonts";
+
+body {
+  background-color: $color3;
+  font-family: 'Code', sans-serif;
+  font-size: 5em;
+  color: $color1;
+}
