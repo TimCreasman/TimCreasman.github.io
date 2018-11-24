@@ -2,13 +2,13 @@
     <div class ='footer'>
       <div class='social-media'>
         <div class='twitter'>
-          twitter
+          <font-awesome-icon :icon="[ 'fab','twitter']" />
         </div>
         <div class='github'>
-          github
+          <font-awesome-icon :icon="[ 'fab','github']" />
         </div>
         <div class='instagram'>
-          instagram
+          <font-awesome-icon :icon="[ 'fab','instagram']" />
         </div>
       </div>
     </div>
