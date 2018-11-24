@@ -3,8 +3,26 @@ import './styles/palette.scss';
 import './styles/style.scss';
 
 import Vue from 'vue';
-import App from './Index.vue';
+import VueRouter from 'vue-router';
+import App from './App.vue';
+import Home from './components/Home/Home.vue';
+import Projects from './components/Projects/Projects.vue';
+
+Vue.use(VueRouter);
+
+const routes = [
+    { path: '/', component: Home },
+    { path: '/projects', component: Projects}
+]
+
+const router = new VueRouter({
+    routes
+})
+
 new Vue({
-  el: '#app',
-  render: h => h(App)
+    el: '#app',
+    router,
+    render: h => h(App)
 });
+
+

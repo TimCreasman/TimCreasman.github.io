@@ -14,57 +14,5 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 100px 2fr 1fr 50px;
-}
-
-.header {
-  background-color: $color1;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px;
-  .nav-button {
-    text-decoration: none;
-    color: $color3;
-    font-size: 2em;
-  }
-  // border-bottom: 2px solid darken( $color1, 20% );
-}
-
-.welcome {
-  font-family: 'Code', sans-serif;
-  color: $color1;
-  text-align: center;
-  place-self: center;
-  opacity: 0;
-  animation: fadein .7s .3s forwards;
-  .name-tim {
-    font-size: 10em;
-    letter-spacing: 0.2em;
-    text-indent: 0.2em;
-    font-weight: bold;
-  }
-  .name-creasman {
-    font-size: 5em;
-    font-weight: light;
-  }
-}
-
-.wip {
-  font-family: 'Droid Sans', sans-serif;
-  color: $color1;
-  font-size: 2em;
-  justify-self: center;
-  align-self: start;
-  opacity: 0;
-  animation: fadein .7s 1s forwards;
-}
-.footer {
-  background-color: $color2;
-  align-self: end;
-}
-
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  grid-template-rows: 100px 1fr 50px;
 }
