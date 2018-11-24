@@ -4,9 +4,7 @@
     </div>
 </template>
 
-
 <script>
-  import './projects.scss';
   export default {
     name: 'Projects'
   }

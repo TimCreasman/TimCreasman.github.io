@@ -1,4 +1,15 @@
-@import "../../styles/palette";
+<template>
+    <div class='home'>
+        <div class='welcome'>
+            <div class='name-tim'>Tim</div>
+            <div class='name-creasman'>Creasman</div>
+        </div>
+        <div class='wip'>check back later for updates...</div>
+  </div>
+</template>
+
+<style lang="scss">
+@import "../styles/palette";
 
 .home {
   height: 100%;
@@ -36,3 +47,11 @@
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+</style>
+
+<script>
+  export default {
+    name: 'Header'
+  }
+</script>

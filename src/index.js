@@ -5,8 +5,14 @@ import './styles/style.scss';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './App.vue';
-import Home from './components/Home/Home.vue';
-import Projects from './components/Projects/Projects.vue';
+
+/* Pages */
+import Home from './pages/Home.vue';
+import About from './pages/About.vue';
+import Projects from './pages/Projects.vue';
+import Faith from './pages/Faith.vue';
+import Shoutouts from './pages/Shoutouts.vue';
+import Contact from './pages/Contact.vue';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -20,7 +26,11 @@ Vue.use(VueRouter);
 
 const routes = [
     { path: '/', component: Home },
-    { path: '/projects', component: Projects}
+    { path: '/about', component: About },
+    { path: '/projects', component: Projects },
+    { path: '/faith', component: Faith },
+    { path: '/shoutouts', component: Shoutouts },
+    { path: '/contact', component: Contact}
 ]
 
 const router = new VueRouter({

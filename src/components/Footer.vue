@@ -14,8 +14,25 @@
     </div>
 </template>
 
+<style lang="scss">
+@import "../styles/palette";
+.footer {
+  height: 100%;
+  background-color: $color2;
+  align-self: end;
+  .social-media {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    div {
+      padding: 10px;
+    }
+  }
+}
+</style>
+
 <script>
-  import './footer.scss';
   export default {
     name: 'Footer'
   }
