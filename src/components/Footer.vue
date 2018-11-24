@@ -2,13 +2,19 @@
     <div class ='footer'>
       <div class='social-media'>
         <div class='twitter'>
-          <font-awesome-icon :icon="[ 'fab','twitter']" />
+          <a href='https://twitter.com/TimCreasman'>
+            <font-awesome-icon :icon="[ 'fab','twitter']" />
+          </a>
         </div>
         <div class='github'>
-          <font-awesome-icon :icon="[ 'fab','github']" />
+          <a href='https://github.com/TimCreasman'>
+            <font-awesome-icon :icon="[ 'fab','github']" />
+          </a>
         </div>
         <div class='instagram'>
-          <font-awesome-icon :icon="[ 'fab','instagram']" />
+          <a href='https://www.instagram.com/timcreasman/'>
+            <font-awesome-icon :icon="[ 'fab','instagram']" />
+          </a>
         </div>
       </div>
     </div>
@@ -27,6 +33,11 @@
     justify-content: flex-end;
     div {
       padding: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: $color1;
+      font-size: 1em;
     }
   }
 }
