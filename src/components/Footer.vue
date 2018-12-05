@@ -23,7 +23,7 @@
 <style lang="scss">
 @import "../styles/palette";
 .footer {
-  height: 100%;
+  height: 50px;
   background-color: $color2;
   align-self: end;
   .social-media {
@@ -38,6 +38,19 @@
       text-decoration: none;
       color: $color1;
       font-size: 1em;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    height: 100px;
+    .social-media {
+      div {
+        padding: 20px;
+      }
+      a {
+        font-size: 2.5em;
+      }
     }
   }
 }
