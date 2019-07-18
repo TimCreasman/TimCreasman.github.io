@@ -93,6 +93,7 @@ textarea:-webkit-autofill {
 img {
   display: block;
   max-width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 /* Body
 -------------------------------------------------- */

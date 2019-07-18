@@ -6,19 +6,27 @@
     <description>Recent content on TJC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2019 15:54:34 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 14:01:34 -0400</lastBuildDate>
     
 	<atom:link href="https://timcreasman.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Start Here</title>
-      <link>https://timcreasman.com/start-here/</link>
-      <pubDate>Wed, 08 May 2019 15:54:34 -0400</pubDate>
+      <title>About this Website</title>
+      <link>https://timcreasman.com/about-this-website/</link>
+      <pubDate>Thu, 18 Jul 2019 14:01:34 -0400</pubDate>
       
-      <guid>https://timcreasman.com/start-here/</guid>
-      <description>Welcome to My Website Made to Create I wanted a place where I could not only blog about my life and my God, but also archive and chronicle the various carpentry projects, musical compositions, and apps I have created and will hopefully continue to create. This is a creative outlet as much as it is a technical outlook on life.
-Ultimately I want this website to be a place of divinely inspired creativity, as I believe we are created in the image of a creative God.</description>
+      <guid>https://timcreasman.com/about-this-website/</guid>
+      <description>Click here to learn more about this website</description>
+    </item>
+    
+    <item>
+      <title>Stage Design Series: Led Crown</title>
+      <link>https://timcreasman.com/posts/projects/stage-design/led-crown/</link>
+      <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate>
+      
+      <guid>https://timcreasman.com/posts/projects/stage-design/led-crown/</guid>
+      <description>A breakdown of the process for designing and developing a large LED outlined crown</description>
     </item>
     
   </channel>
