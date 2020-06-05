@@ -10,48 +10,92 @@
     <meta name="description" content="Click here to learn more about this website">
     <meta name="author" content="">
     
-    <link href="https://timcreasman.com/css/github-gist.min.css" rel="stylesheet">
-    <link href="https://timcreasman.com/css/style.css" rel="stylesheet">
+    <link href="https://timcreasman.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://timcreasman.com/style.css" rel="stylesheet">
     
-    <link rel="apple-touch-icon" href="https://timcreasman.com/img/apple-touch-icon.png">
-    <link rel="icon" href="https://timcreasman.com/img/favicon.ico">
+    <link rel="apple-touch-icon" href="https://timcreasman.com/apple-touch-icon.png">
+    <link rel="icon" href="https://timcreasman.com/favicon.ico">
     
     <meta name="generator" content="Hugo 0.64.1" />
     
     <link rel="alternate" type="application/atom+xml" href="https://timcreasman.com/index.xml" title="TJC">
     
     
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
   </head>
   <body class="single">
+    <script>
+      setTheme();
+    </script>
     <header class="header">
-      <div class="wrap">
+      <nav class="nav">
         
-        <p class="logo"><a href="https://timcreasman.com/">TJC </a></p>
+        <p class="logo"><a href="https://timcreasman.com/">TJC</a></p>
         
-        <button class="menu-toggle" type="button"></button>
-      </div>
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/about-me/">About Me</a>
+          </li>
+          
+          <li>
+            <a href="/about-this-website/">About this Website</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
     </header>
-    <nav class="nav">
-    <ul class="menu">
-      
-      
-      <li class="">
-        <a href="/about-me/">About Me</a>
-      </li>
-      
-      <li class="">
-        <a href="/about-this-website/">About this Website</a>
-      </li>
-      
-    </ul>
-    </nav>
     <main class="main">
 
 
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">About this Website</h1>
-    <div class="post-meta">2019.7.18</div>
+    <div class="post-meta">July 18, 2019</div>
   </header>
   <div class="post-content"><blockquote>
 <p>For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him.</p>
@@ -68,9 +112,7 @@
 <p>Highly recommend - 10/10 would build a website with HUGO again.</p>
 <p><img src="/about-this-website/hugo.png" alt="alt text" title="Logo Title Text 2"></p>
 </div>
-  <footer class="post-footer">
-    
-  </footer>
+  
   
   
   
@@ -79,33 +121,15 @@
 
 </main>
 <footer class="footer">
-  <span>&copy; 2020 TJC</span>
+  <span>&copy; 2020 <a href="https://timcreasman.com/">TJC</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
-<script src="https://timcreasman.com/js/instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
-<script src="https://timcreasman.com/js/highlight.min.js" data-no-instant></script>
-<script data-no-instant>
+<script src="https://timcreasman.com/highlight.min.js"></script>
+<script>
   hljs.initHighlightingOnLoad();
-  setMenuListener();
-
-  InstantClick.on('change', function() {
-    document.querySelectorAll('pre code').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
-    setMenuListener();
-  });
-
-  function setMenuListener() {
-    var menuToggle = document.querySelector('.menu-toggle');
-    var body = document.querySelector('body');
-    menuToggle.addEventListener('click', function() {
-      body.classList.toggle('no-scroll');
-    }, false);
-  }
 </script>
 </body>
 </html>

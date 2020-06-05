@@ -10,48 +10,92 @@
     <meta name="description" content="A breakdown of the process for designing and developing a large LED outlined crown">
     <meta name="author" content="">
     
-    <link href="https://timcreasman.com/css/github-gist.min.css" rel="stylesheet">
-    <link href="https://timcreasman.com/css/style.css" rel="stylesheet">
+    <link href="https://timcreasman.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://timcreasman.com/style.css" rel="stylesheet">
     
-    <link rel="apple-touch-icon" href="https://timcreasman.com/img/apple-touch-icon.png">
-    <link rel="icon" href="https://timcreasman.com/img/favicon.ico">
+    <link rel="apple-touch-icon" href="https://timcreasman.com/apple-touch-icon.png">
+    <link rel="icon" href="https://timcreasman.com/favicon.ico">
     
     <meta name="generator" content="Hugo 0.64.1" />
     
     <link rel="alternate" type="application/atom+xml" href="https://timcreasman.com/index.xml" title="TJC">
     
     
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
   </head>
   <body class="single">
+    <script>
+      setTheme();
+    </script>
     <header class="header">
-      <div class="wrap">
+      <nav class="nav">
         
-        <p class="logo"><a href="https://timcreasman.com/">TJC </a></p>
+        <p class="logo"><a href="https://timcreasman.com/">TJC</a></p>
         
-        <button class="menu-toggle" type="button"></button>
-      </div>
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/about-me/">About Me</a>
+          </li>
+          
+          <li>
+            <a href="/about-this-website/">About this Website</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
     </header>
-    <nav class="nav">
-    <ul class="menu">
-      
-      
-      <li class="">
-        <a href="/about-me/">About Me</a>
-      </li>
-      
-      <li class="">
-        <a href="/about-this-website/">About this Website</a>
-      </li>
-      
-    </ul>
-    </nav>
     <main class="main">
 
 
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Stage Design Series: Led Crown</h1>
-    <div class="post-meta">2019.5.8</div>
+    <div class="post-meta">May 8, 2019</div>
   </header>
   <div class="post-content"><p><img src="/posts/projects/stage-design/led-crown-contents/crown-thumbnail.jpg" alt="alt text" title="Crown Thumbnail"></p>
 <h2 id="overview">Overview</h2>
@@ -126,21 +170,25 @@ In order to tackle such a project, I modified and adapted <a href="https://www.y
 <p>The LEDs themselves only lasted a few weeks. Between poor connections and overheating, the wires quickly got destroyed. If I were to do this part over, I would use the <a href="https://www.amazon.com/Connector-Waterproof-Connection-Stripping-Conductor/dp/B07MXM5LPC/ref=sr_1_6">plastic wire connectors</a> made specifically for LED strips. With the LEDs out of commission, the crown was just displayed with overhead lights on it. While this did not look terrible, between no LEDs and LEDs the difference was night and day.</p>
 <p>Unfortunately, while the design was being stored it suffered water damage and is no more. Tragedy aside, the knowledge I gained from the project was worth it alone and even though the crown is now resting in a dump somewhere in the end it was all worth it.</p>
 </div>
+  
   <footer class="post-footer">
-    
     <ul class="post-tags">
       
-      <li><a href="https://timcreasman.com/tags/stage-design/">stage-design</a></li>
       
-      <li><a href="https://timcreasman.com/tags/carpentry/">carpentry</a></li>
+      <li><a href="https://timcreasman.com/tags/stage-design">stage-design</a></li>
       
-      <li><a href="https://timcreasman.com/tags/electronics/">electronics</a></li>
       
-      <li><a href="https://timcreasman.com/tags/lighting/">lighting</a></li>
+      <li><a href="https://timcreasman.com/tags/carpentry">carpentry</a></li>
+      
+      
+      <li><a href="https://timcreasman.com/tags/electronics">electronics</a></li>
+      
+      
+      <li><a href="https://timcreasman.com/tags/lighting">lighting</a></li>
       
     </ul>
-    
   </footer>
+  
   
   
   
@@ -149,33 +197,15 @@ In order to tackle such a project, I modified and adapted <a href="https://www.y
 
 </main>
 <footer class="footer">
-  <span>&copy; 2020 TJC</span>
+  <span>&copy; 2020 <a href="https://timcreasman.com/">TJC</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
-<script src="https://timcreasman.com/js/instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
-<script src="https://timcreasman.com/js/highlight.min.js" data-no-instant></script>
-<script data-no-instant>
+<script src="https://timcreasman.com/highlight.min.js"></script>
+<script>
   hljs.initHighlightingOnLoad();
-  setMenuListener();
-
-  InstantClick.on('change', function() {
-    document.querySelectorAll('pre code').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
-    setMenuListener();
-  });
-
-  function setMenuListener() {
-    var menuToggle = document.querySelector('.menu-toggle');
-    var body = document.querySelector('body');
-    menuToggle.addEventListener('click', function() {
-      body.classList.toggle('no-scroll');
-    }, false);
-  }
 </script>
 </body>
 </html>
