@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>https://timcreasman.com/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 May 2019 16:08:18 -0400</lastBuildDate>
+    
+	<atom:link href="https://timcreasman.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio Highlight: Snack Tracker</title>
+      <link>https://timcreasman.com/portfolio/snack-tracker/</link>
+      <pubDate>Mon, 03 Aug 2020 15:27:45 -0400</pubDate>
+      
+      <guid>https://timcreasman.com/portfolio/snack-tracker/</guid>
+      <description>WIP </description>
+    </item>
+    
+    <item>
+      <title>About this Website</title>
+      <link>https://timcreasman.com/about-this-website/</link>
+      <pubDate>Thu, 18 Jul 2019 14:01:34 -0400</pubDate>
+      
+      <guid>https://timcreasman.com/about-this-website/</guid>
+      <description>Click here to learn more about this website</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://timcreasman.com/about-me/</link>
+      <pubDate>Wed, 08 May 2019 17:01:15 -0400</pubDate>
+      
+      <guid>https://timcreasman.com/about-me/</guid>
+      <description>Click here to learn more about me</description>
+    </item>
+    
+    <item>
+      <title>Stage Design Series: Led Crown</title>
+      <link>https://timcreasman.com/posts/projects/stage-design/led-crown/</link>
+      <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate>
+      
+      <guid>https://timcreasman.com/posts/projects/stage-design/led-crown/</guid>
+      <description>A breakdown of the process for designing and developing a large LED outlined crown</description>
+    </item>
+    
+  </channel>
+</rss>
