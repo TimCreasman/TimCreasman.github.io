@@ -2,4 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
+  <url>
+    <loc>https://timcreasman.com/posts/portfolio/snack-tracker/</loc>
+    <lastmod>2020-08-03T15:27:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/about-this-website/</loc>
+    <lastmod>2019-07-18T14:01:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/about-me/</loc>
+    <lastmod>2019-05-08T17:01:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/posts/</loc>
+    <lastmod>2019-05-08T16:20:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/</loc>
+    <lastmod>2019-05-08T16:08:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/tags/carpentry/</loc>
+    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/tags/electronics/</loc>
+    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/tags/lighting/</loc>
+    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/posts/projects/led-crown/</loc>
+    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/tags/stage-design/</loc>
+    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/tags/</loc>
+    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timcreasman.com/categories/</loc>
+  </url>
+  
 </urlset>
