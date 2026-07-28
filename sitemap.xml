@@ -1,64 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://timcreasman.com/posts/portfolio/snack-tracker/</loc>
-    <lastmod>2020-08-03T15:27:45-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/about-this-website/</loc>
-    <lastmod>2019-07-18T14:01:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/about-me/</loc>
-    <lastmod>2019-05-08T17:01:15-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/posts/</loc>
-    <lastmod>2019-05-08T16:20:30-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/</loc>
-    <lastmod>2019-05-08T16:08:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/tags/carpentry/</loc>
-    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/tags/electronics/</loc>
-    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/tags/lighting/</loc>
-    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/posts/projects/led-crown/</loc>
-    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/tags/stage-design/</loc>
-    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/tags/</loc>
-    <lastmod>2019-05-08T15:17:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://timcreasman.com/categories/</loc>
-  </url>
-  
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://timbits.com/posts/portfolio/snack-tracker/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/posts/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/about-this-website/</loc><lastmod>2020-08-21T16:42:31-04:00</lastmod></url><url>
+            <loc>https://timbits.com/about-me/</loc><lastmod>2020-08-21T16:42:31-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/carpentry/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/electronics/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/lighting/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/posts/projects/stage-design/led-crown/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/stage-design/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/action/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/decision-making/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/tags/faith/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/posts/faith/call-to-action/</loc><lastmod>2026-07-28T16:31:27-04:00</lastmod></url><url>
+            <loc>https://timbits.com/categories/</loc></url></urlset>

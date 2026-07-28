@@ -1,51 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Home</title>
-    <link>https://timcreasman.com/tags/</link>
-    <description>Recent content in Tags on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2019 15:17:09 -0400</lastBuildDate>
-    
-	<atom:link href="https://timcreasman.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>carpentry</title>
-      <link>https://timcreasman.com/tags/carpentry/</link>
-      <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate>
-      
-      <guid>https://timcreasman.com/tags/carpentry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>electronics</title>
-      <link>https://timcreasman.com/tags/electronics/</link>
-      <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate>
-      
-      <guid>https://timcreasman.com/tags/electronics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lighting</title>
-      <link>https://timcreasman.com/tags/lighting/</link>
-      <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate>
-      
-      <guid>https://timcreasman.com/tags/lighting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stage-design</title>
-      <link>https://timcreasman.com/tags/stage-design/</link>
-      <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate>
-      
-      <guid>https://timcreasman.com/tags/stage-design/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Timbits</title>
+        <link>https://timbits.com/tags/</link>
+        <description>Tags - Tag - Timbits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 May 2019 15:17:09 -0400</lastBuildDate><atom:link href="https://timbits.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Carpentry</title>
+    <link>https://timbits.com/tags/carpentry/</link>
+    <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/carpentry/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Electronics</title>
+    <link>https://timbits.com/tags/electronics/</link>
+    <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/electronics/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Lighting</title>
+    <link>https://timbits.com/tags/lighting/</link>
+    <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/lighting/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Stage-Design</title>
+    <link>https://timbits.com/tags/stage-design/</link>
+    <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/stage-design/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Action</title>
+    <link>https://timbits.com/tags/action/</link>
+    <pubDate>Wed, 08 May 2019 15:11:56 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/action/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Decision-Making</title>
+    <link>https://timbits.com/tags/decision-making/</link>
+    <pubDate>Wed, 08 May 2019 15:11:56 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/decision-making/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Faith</title>
+    <link>https://timbits.com/tags/faith/</link>
+    <pubDate>Wed, 08 May 2019 15:11:56 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/faith/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
