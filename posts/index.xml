@@ -3,7 +3,16 @@
         <title>All Posts - Timbits</title>
         <link>https://timbits.com/posts/</link>
         <description>All Posts | Timbits</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 03 Aug 2020 15:27:45 -0400</lastBuildDate><atom:link href="https://timbits.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Aug 2026 12:25:09 -0400</lastBuildDate><atom:link href="https://timbits.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Yet Another Tuner App</title>
+    <link>https://timbits.com/posts/portfolio/tuner/</link>
+    <pubDate>Tue, 04 Aug 2026 12:25:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/posts/portfolio/tuner/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/posts/portfolio/tuner/tuner-thumbnail.png" referrerpolicy="no-referrer">
+            </div>Yet another tuner app]]></description>
+</item><item>
     <title>Portfolio Highlight: Snack Tracker</title>
     <link>https://timbits.com/posts/portfolio/snack-tracker/</link>
     <pubDate>Mon, 03 Aug 2020 15:27:45 -0400</pubDate><author>

@@ -3,7 +3,35 @@
         <title>Tags - Tag - Timbits</title>
         <link>https://timbits.com/tags/</link>
         <description>Tags - Tag - Timbits</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 May 2019 15:17:09 -0400</lastBuildDate><atom:link href="https://timbits.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Aug 2026 12:25:09 -0400</lastBuildDate><atom:link href="https://timbits.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Css</title>
+    <link>https://timbits.com/tags/css/</link>
+    <pubDate>Tue, 04 Aug 2026 12:25:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/css/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Javascript</title>
+    <link>https://timbits.com/tags/javascript/</link>
+    <pubDate>Tue, 04 Aug 2026 12:25:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/javascript/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Lit</title>
+    <link>https://timbits.com/tags/lit/</link>
+    <pubDate>Tue, 04 Aug 2026 12:25:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/lit/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Webdev</title>
+    <link>https://timbits.com/tags/webdev/</link>
+    <pubDate>Tue, 04 Aug 2026 12:25:09 -0400</pubDate><author>
+        <name>Tim</name>
+    </author><guid>https://timbits.com/tags/webdev/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Carpentry</title>
     <link>https://timbits.com/tags/carpentry/</link>
     <pubDate>Wed, 08 May 2019 15:17:09 -0400</pubDate><author>
@@ -44,13 +72,6 @@
     <pubDate>Wed, 08 May 2019 15:11:56 -0400</pubDate><author>
         <name>Tim</name>
     </author><guid>https://timbits.com/tags/decision-making/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Faith</title>
-    <link>https://timbits.com/tags/faith/</link>
-    <pubDate>Wed, 08 May 2019 15:11:56 -0400</pubDate><author>
-        <name>Tim</name>
-    </author><guid>https://timbits.com/tags/faith/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
